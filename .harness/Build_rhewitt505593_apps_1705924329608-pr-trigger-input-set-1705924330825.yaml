@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rhewitt505593_apps_1705924329608-pr-trigger-input-set
+  identifier: Build_rhewitt505593_apps_1705924329608prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rhewitt505593_apps_1705924329608
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
